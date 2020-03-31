@@ -89,7 +89,7 @@ void keyPressed(){
 char press = key;
 switch(press) {
   case 'r': 
-    for (int i =0 ; i<6;i++) {
+    for (int i =0 ; i<9;i++) {
 colo[i]=int(random(0,255));
     }
     break;
